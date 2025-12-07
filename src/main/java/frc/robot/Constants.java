@@ -10,13 +10,15 @@ public final class Constants {
         //turning PID values
         public static final double kTurningP = 0.01;
         public static final double kTurningI = 0.0;
-        public static final double kTurningD = 0.01;
+        public static final double kTurningD = 0.0;
         public static final double kTurningFF = 0.0;
-
-        public static final double kDrivingP = 0.01;
+        public static final double kTurningIZ = 0.0;
+        //drive PID Values
+        public static final double kDrivingP = 0.0020645;
         public static final double kDrivingI = 0.00;
-        public static final double kDrivingD = 0.01;
+        public static final double kDrivingD = 0.0;
         public static final double kDrivingFF = 0.0;
+        public static final double kDrivingIZ = 0.0;
     }
 
 }
